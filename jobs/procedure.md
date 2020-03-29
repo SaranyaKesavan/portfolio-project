@@ -135,6 +135,8 @@ DATABASES = {
 
 4. need to create super user again
 
+Reading from db showing in frontedn
+
 
 
 
