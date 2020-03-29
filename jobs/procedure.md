@@ -135,8 +135,19 @@ DATABASES = {
 
 4. need to create super user again
 
-Reading from db showing in frontedn
+Reading from db showing in fronted
 
+
+Using static :
+1. in settings.py add the below:
+
+STATICFILES_DIRS = [
+                os.path.join(BASE_DIR, 'portfolio/static')
+]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
+
+2. then run : python manage.py collectstatic
 
 
 
