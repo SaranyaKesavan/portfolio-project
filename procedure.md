@@ -14,9 +14,18 @@
     <ul>
         <li>Goto settings.py ->INSTALLED_APPS</li>
         <li>add 'appname.apps.cpyclsnamefrmapps.py'</li>
-
     </ul>
 </div>
+
+
+
+Creating Virtual environment without virtual wrapper
+    pip install virtualenv
+        virtualenv envname
+
+use wrapper extension:
+
+    mkvirtualenv envname
 
 TO add media files:
 1. GOTO settings.py 
